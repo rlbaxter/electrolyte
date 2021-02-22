@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 8)
-    (tracks 215)
+    (tracks 212)
     (zones 0)
     (modules 86)
     (nets 65)
@@ -229,8 +229,8 @@
     (add_net ROW3)
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033FA60)
-    (at 111.633 54.229)
+  (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F9F9)
+    (at 111.66348 54.25948)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
@@ -249,7 +249,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F9D5)
-    (at 187.833 35.179)
+    (at 203.708 19.304)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
@@ -268,7 +268,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F9B1)
-    (at 187.96 73.279)
+    (at 203.708 89.154)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
@@ -287,7 +287,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F983)
-    (at 35.306 73.279)
+    (at 19.558 89.154)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
@@ -306,7 +306,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F93A)
-    (at 33.528 35.179)
+    (at 19.558 19.304)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
@@ -3331,6 +3331,8 @@
   (gr_arc (start 18.796 89.916) (end 16.383 89.916) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 18.796 18.542) (end 18.796 16.129) (angle -90) (layer Edge.Cuts) (width 0.05))
 
+  (segment (start 34.06775 33.17875) (end 37.36975 36.48075) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 34.06775 29.71275) (end 34.06775 33.17875) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 38.609025 36.48075) (end 42.487724 32.602051) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 55.91175 30.76275) (end 55.91175 29.71275) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 54.072449 32.602051) (end 55.91175 30.76275) (width 0.25) (layer B.Cu) (net 1))
@@ -3338,11 +3340,6 @@
   (segment (start 37.36975 36.48075) (end 38.609025 36.48075) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 56.96175 29.71275) (end 189.26175 29.71275) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 55.91175 29.71275) (end 56.96175 29.71275) (width 0.25) (layer B.Cu) (net 1))
-  (segment (start 36.168449 35.279449) (end 36.493451 35.604451) (width 0.25) (layer B.Cu) (net 1))
-  (segment (start 36.493451 35.604451) (end 37.36975 36.48075) (width 0.25) (layer B.Cu) (net 1))
-  (segment (start 34.06775 30.76275) (end 36.168449 32.863449) (width 0.25) (layer B.Cu) (net 1))
-  (segment (start 36.168449 32.863449) (end 36.168449 35.279449) (width 0.25) (layer B.Cu) (net 1))
-  (segment (start 34.06775 29.71275) (end 34.06775 30.76275) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 32.76075 20.60575) (end 33.267751 21.112751) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 33.267751 21.112751) (end 34.06775 21.91275) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 28.47975 20.60575) (end 32.76075 20.60575) (width 0.25) (layer B.Cu) (net 2))
