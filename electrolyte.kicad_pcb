@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 10)
     (tracks 215)
     (zones 0)
     (modules 86)
@@ -234,7 +234,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -248,12 +248,12 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F9D5)
+  (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6034752A)
     (at 187.833 35.179)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -272,7 +272,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -291,7 +291,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -310,7 +310,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference x_x (at 0 -3.429) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -3322,6 +3322,12 @@
     )
   )
 
+  (gr_text "Electrolyte v1" (at 121.539 54.229) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "Designed by rlbaxter" (at 99.314 54.229) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_line (start 204.597 16.129) (end 18.796 16.129) (layer Edge.Cuts) (width 0.05) (tstamp 6033ABE3))
   (gr_line (start 206.883 90.043) (end 206.883 18.415) (layer Edge.Cuts) (width 0.05) (tstamp 6033ABE2))
   (gr_line (start 18.796 92.329) (end 204.597 92.329) (layer Edge.Cuts) (width 0.05) (tstamp 6033ABE1))

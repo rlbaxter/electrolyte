@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
-    (tracks 212)
+    (drawings 10)
+    (tracks 215)
     (zones 0)
     (modules 86)
     (nets 65)
@@ -229,12 +229,12 @@
     (add_net ROW3)
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F9F9)
-    (at 111.66348 54.25948)
+  (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033FA60)
+    (at 111.633 54.229)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -249,11 +249,11 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F9D5)
-    (at 203.708 19.304)
+    (at 187.833 35.179)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -268,11 +268,11 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F9B1)
-    (at 203.708 89.154)
+    (at 187.96 73.279)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -287,11 +287,11 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F983)
-    (at 19.558 89.154)
+    (at 35.306 73.279)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -306,11 +306,11 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6033F93A)
-    (at 19.558 19.304)
+    (at 33.528 35.179)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference x_x (at 0 -3.429) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -3322,6 +3322,12 @@
     )
   )
 
+  (gr_text "Electrolyte v1" (at 121.539 54.229) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "Designed by rlbaxter" (at 100.076 54.229) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_line (start 204.597 16.129) (end 18.796 16.129) (layer Edge.Cuts) (width 0.05) (tstamp 6033ABE3))
   (gr_line (start 206.883 90.043) (end 206.883 18.415) (layer Edge.Cuts) (width 0.05) (tstamp 6033ABE2))
   (gr_line (start 18.796 92.329) (end 204.597 92.329) (layer Edge.Cuts) (width 0.05) (tstamp 6033ABE1))
@@ -3331,8 +3337,6 @@
   (gr_arc (start 18.796 89.916) (end 16.383 89.916) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 18.796 18.542) (end 18.796 16.129) (angle -90) (layer Edge.Cuts) (width 0.05))
 
-  (segment (start 34.06775 33.17875) (end 37.36975 36.48075) (width 0.25) (layer B.Cu) (net 1))
-  (segment (start 34.06775 29.71275) (end 34.06775 33.17875) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 38.609025 36.48075) (end 42.487724 32.602051) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 55.91175 30.76275) (end 55.91175 29.71275) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 54.072449 32.602051) (end 55.91175 30.76275) (width 0.25) (layer B.Cu) (net 1))
@@ -3340,6 +3344,11 @@
   (segment (start 37.36975 36.48075) (end 38.609025 36.48075) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 56.96175 29.71275) (end 189.26175 29.71275) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 55.91175 29.71275) (end 56.96175 29.71275) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 36.168449 35.279449) (end 36.493451 35.604451) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 36.493451 35.604451) (end 37.36975 36.48075) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 34.06775 30.76275) (end 36.168449 32.863449) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 36.168449 32.863449) (end 36.168449 35.279449) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 34.06775 29.71275) (end 34.06775 30.76275) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 32.76075 20.60575) (end 33.267751 21.112751) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 33.267751 21.112751) (end 34.06775 21.91275) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 28.47975 20.60575) (end 32.76075 20.60575) (width 0.25) (layer B.Cu) (net 2))
